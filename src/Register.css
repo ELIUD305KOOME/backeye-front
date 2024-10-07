@@ -1,0 +1,147 @@
+.login-container {
+    max-width: 350px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    color: #262626;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    width: 90%;
+    
+}
+
+.input-label {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+    height: 60px;
+}
+
+.input-field {
+    width: 100%;
+    height: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-button {
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    background-color: #0095f6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #0077b5;
+}
+
+.or-separator {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.or-separator span {
+    font-size: 16px;
+    color: #666;
+    margin: 0 10px;
+}
+
+.facebook-login {
+    margin-bottom: 20px;
+}
+
+.facebook-button {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: #4267b2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.facebook-button:hover {
+    background-color: #3851b5;
+}
+
+.forgot-password {
+    margin-bottom: 20px;
+}
+
+.forgot-password-link {
+    font-size: 16px;
+    color: #666;
+    text-decoration: none;
+}
+
+.dont-have-account {
+    margin-bottom: 20px;
+}
+
+.sign-up-link {
+    font-size: 16px;
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.get-apps {
+    margin-bottom: 20px;
+}
+
+.get-app-link {
+    font-size: 16px;
+    color: #666;
+    text-decoration: none;
+}
+
+.google-play-store {
+    margin-bottom: 20px;
+}
+
+.google-play-link {
+    font-size: 16px;
+    color: #666;
+    text-decoration: none;
+}
+
+.microsoft-store {
+    margin-bottom: 20px;
+}
+
+.microsoft-link {
+    font-size: 16px;
+    color: #666;
+    text-decoration: none;
+}
+
+.error-message {
+    color: #f00;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
